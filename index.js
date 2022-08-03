@@ -13,7 +13,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 const run = async () => {
     try {
         await client.connect();
-        console.log('connected');
+        console.log('connect');
     }
     catch (error) {
         console.log(error);
